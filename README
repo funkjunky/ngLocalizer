@@ -1,0 +1,4 @@
+Localizer
+---
+
+An Angular module for localizing stuff. Provides the function phrase and the filter localize.
