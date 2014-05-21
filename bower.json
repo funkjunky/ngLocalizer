@@ -10,7 +10,8 @@
     "angular"
   ],
   "dependencies": {
-	 "angular": "latest"
+	 "angular": "latest",
+	 "angular-cookies": "latest"
   },
   "license": "MIT",
   "private": false,
