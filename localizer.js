@@ -7,6 +7,8 @@ app.factory('Localizer', function($cookies) {
       dictionary = aDictionary;
     },
     phrase: function(phrase) {
+		if(!$cookies.language)
+			return phrase;
       var language = $cookies.language.split('-')[0];
       if(dictionary[phrase])
         return dictionary[phrase][language] || phrase;
