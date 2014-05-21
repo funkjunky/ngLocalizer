@@ -10,7 +10,7 @@
     "angular"
   ],
   "dependencies": {
-	 "angular": "latest",
+	 "angular": "latest"
   },
   "license": "MIT",
   "private": true,
