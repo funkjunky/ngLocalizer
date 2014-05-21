@@ -1,4 +1,4 @@
-var app = angular.module('ngLocalization', ['ngCookies']);
+var app = angular.module('ngLocalizer', ['ngCookies']);
 
 app.factory('Localizer', function($cookies) {
   var dictionary = {};
